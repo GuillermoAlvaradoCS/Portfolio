@@ -71,8 +71,6 @@ function Main() {
             <div className="search-box">
               <input onKeyPress={handleKeyPress} onChange={(e)=>setInput(e.target.value)} value={input} type="text" placeholder='Enter a prompt here'/>
               <div>
-                {/* <img src={assets.gallery_icon_dark} alt="" />
-                <img src={assets.mic_icon_white} alt="" /> */}
                 {input?<img onClick={()=>onSend()} src={assets.send_icon_white} alt="" />:null}
               </div>
             </div>
