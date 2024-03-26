@@ -10,3 +10,5 @@ Portfolio projects
 4.- Netflix clone web design.
 
 5.- E-commerce Fullstack React
+
+6.- Gemini Clone
