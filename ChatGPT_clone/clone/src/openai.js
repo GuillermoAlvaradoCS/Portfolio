@@ -1,5 +1,5 @@
 const { OpenAI } = require('openai')
-const openai = new OpenAI({apiKey: "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"})
+const openai = new OpenAI({apiKey: ""})
 
 export async function sendMsgToOpenAI(message){
     const res = await openai.completions.create({
